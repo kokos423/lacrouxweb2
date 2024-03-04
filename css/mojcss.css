@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#forma{
+    margin-bottom: 40px !important;
+}
+
+#forma span{
+    color: red;
+}
+
+#forma p{
+    margin-bottom: 7px;
+}
+
+.greska{
+    display:none;
+}
+
+#termini{
+    font-size: 23px;
+}
+
+#author{
+    width: 80%;
+}
+
+#author p{
+    color: #000000;
+}
+
+#author img{
+    width:100%;
+}
+
+#biografija{
+    margin-top: 65px;
+}
+
+#backtotop{
+        display: none;
+        position: fixed;
+        bottom: 40px;
+        right: 50px;
+        background-color: #d43031;
+        color: #000;
+        font-weight: bold;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 9px;
+}
+
+.dugme{
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    p{
+        margin-right: 20px;
+    }
+}
+
+#people{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#autorskaslika{
+    background-image: url(/img/strana.jpg);
+}
+
+#velikiwrapper2{
+    display: flex;
+    justify-content: center;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f3f0; 
+    opacity: 1; 
+    transition: 1.4s ease;
+    z-index: 9999; 
+}
+
+@media screen and (max-width: 1026px) {
+    #team .team-img {
+        display: none;
+   }
+}
+
